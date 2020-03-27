@@ -25,7 +25,7 @@ function Order() {
     const [errors, setErrors] = useState({
         name: '',
         pizzaSize: '',
-        pizzaTopping: '',
+        // pizzaTopping: '',
         instructions: ''
     })
 
@@ -76,7 +76,7 @@ function Order() {
                         value= {formState.name}
                         onChange= {inputChange}
                     />
-                    {errors.name.length < 0 ? (<p className="error">{errors.name}</p>) : null}
+                    {2 > errors.name.length ? (<p className="error">{errors.name}</p>) : null}
                 </label><br />
 
                 <label htmlFor = "pizzaSize">
@@ -132,7 +132,7 @@ function Order() {
                 </label><br />
 
                 <pre>{JSON.stringify(post, null, 2)}</pre>
-                    <button>Submit Order!</button>
+                    <button id="submitButton">Submit Order!</button>
                 
             </form>
     )
