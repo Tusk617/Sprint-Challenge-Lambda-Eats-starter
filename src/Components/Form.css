@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name {
+    margin-top: 10%;
+}
+
+#pizzaSize {
+    display: flex;
+    width: 100%;
+    border: 2px inset red;
+    
+}
+
+img {
+    width: 50%;
+    border-radius: 50px;
+    margin-top: 2%;
+}
