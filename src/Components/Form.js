@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import * as yup from 'yup';
 import axios from 'axios';
+import './Form.css';
 
 const formSchema = yup.object().shape({
     name: yup.string().required("Please include your name so we know if we have the right person!"),
@@ -66,10 +67,13 @@ function Order() {
         })
     }
     return (
+            
             <form onSubmit={submit}>
+                <img src={require('./Pizza.jpg')} />
                 <label htmlFor = "name">
                     Name:
                     <input 
+                        
                         id = "name"
                         type = "text"
                         name = "name"
