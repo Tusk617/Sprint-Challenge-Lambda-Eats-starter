@@ -31,7 +31,7 @@ Follow these steps to set up and work on your project:
 - [X] Download project dependencies by running `npm install`
 - [X] Start up the app using `npm start`
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`. Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
 
